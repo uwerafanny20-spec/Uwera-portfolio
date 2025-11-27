@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uwers Francoise | Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        /* ===========================
+           MAP STYLING
+        =========================== */
+        .map-container {
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            margin: 30px auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .map-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hamburger-menu" id="hamburger">
+        <img src="image/menu.png" alt="Menu Icon">
+    </div>
+
+    <nav class="nav-bar" id="navBar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact-info">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hello-section">
+        <div class="hello-container">
+            <div class="hello-text">
+                <h1>Welcome, I'm <span>Uwers Francoise</span></h1>
+                <h2>Product Designer | Frontend Developer | UI/UX Designer</h2>
+                <a href="#contact-info" class="hello-btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I am a passionate Product Designer and Frontend Developer focused on creating intuitive, user-centered digital experiences. 
+                        My work involves transforming ideas into functional layouts and design flows that are easy to navigate and visually engaging.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="image/image1.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2>Experience</h2>
+            <p><strong>Usability Testing</strong></p>
+            <p><strong>2 Years of Working Experience</strong></p>
+            <p>
+                I specialize in translating ideas into functional layouts, designing flows and interactions 
+                that feel intuitive and easy to navigate for all users.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>UI/UX Design</li>
+                <li>Java</li>
+                <li>HTML / CSS</li>
+                <li>Figma</li>
+                <li>Photoshop</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h3>Smart Grocery App</h3>
+                    <p>
+                        A mobile app designed to help users track, organize, and purchase groceries efficiently.  
+                        The app provides smart suggestions, intuitive navigation, and simplified user flows to enhance the shopping experience.
+                    </p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>My Journey to Becoming a Product Designer</h3>
+                <p>
+                    My journey into product design began with a deep curiosity about how people interact with digital products. 
+                    Over time, this curiosity evolved into a passion for creating solutions that solve real user problems. 
+                    Through practice, usability testing, and design exploration, I grew into a product designer 
+                    who values simplicity, clarity, and user-centered thinking.
+                </p>
+            </div>
+            <div class="blog-post">
+                <h3>How Frontend Development Complements My Design Skills</h3>
+                <p>
+                    As a Frontend Developer, I bring my designs to life using clean and efficient code.  
+                    This allows me to ensure that the final product looks great and functions smoothly.  
+                    Combining UI/UX design with frontend development gives me full control from concept to implementation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="#" class="resume-btn" download>Download Resume</a>
+        </div>
+    </section>
+
+    <section id="contact-info" class="contact-info-section">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-links">
+                <a href="tel:+250783627943">Call: 0783627943</a>
+                <a href="mailto:uwerafanny20@gmail.com">Email: uwerafanny20@gmail.com</a>
+            </div>
+
+            <!-- Google Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.173309174044!2d30.10451391475331!3d-1.9434399988424853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca5c6d7d1b3f5%3A0x3a94c1f46f95d3a3!2sRemera%2C%20Kigali!5e0!3m2!1sen!2srw!4v1701053942883!5m2!1sen!2srw" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Uwers Francoise</h3>
+                <p>Product Designer | Frontend Developer | UI/UX Designer</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:uwerafanny20@gmail.com">uwerafanny20@gmail.com</a></p>
+                <p>Phone: 0783627943</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Uwers Francoise. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
